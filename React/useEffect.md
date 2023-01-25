@@ -1,0 +1,5 @@
+- runs when component is rendered
+- types based on dependency:
+    - run every time state changes (everything is a dep)
+    - no dep
+    - some dep
