@@ -1,0 +1,4 @@
+- using `if...else` stmt
+- in JSX: 
+	- `{ condition ? <Something /> : <SomethingElse />}`
+	- `{ condition && <something />`

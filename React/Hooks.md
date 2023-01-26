@@ -36,6 +36,8 @@ useEffect(() => {
     - reset some variables
     - cancelling fetch requests using `AbortController` or `axios.CancelToken`
 
+---
+
 # `useState`
 
 - with functional components, `setState()` always sets whats passed to it and doesnt merge changes with exisiting state 
@@ -61,6 +63,21 @@ function decrementCount() {
 }
 ```
 
+---
+
 # `useMemo`
 
-- 
+- cache result of a calculation between re-renders
+
+```js
+const cachedValue = useMemo(calculateValue, dependencies);
+```
+
+- referential equality is another use case
+	- when a component re-renders its entire code gets re-exec and we might not actually need some stuff to get re-exec like when some variables/state remains same 
+	- to avoid re-exec we can use `useMemo`
+
+### Avoid memoization by following few principles
+
+1. When a component visually wraps other components, let it accept JSX as children => when wrapper component updats its own state React knows that its children dont need to re-render
+2. 
