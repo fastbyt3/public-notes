@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d8dc3e745216770b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/Updating Objects in State.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce08747841e770ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/Updating arrays in state.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Responding to events.md",
+                "file": "React/Updating arrays in state.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Responding to events.md",
+                "file": "React/Updating arrays in state.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/Responding to events.md"
+                "file": "React/Updating arrays in state.md"
               }
             }
           }
@@ -170,8 +194,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a744c89899c374c",
+  "active": "ce08747841e770ca",
   "lastOpenFiles": [
+    "React/Updating Objects in State.md",
+    "React/Responding to events.md",
     "React/Conditional rendering.md",
     "React/getting keys.md",
     "React/Hooks.md",
@@ -179,8 +205,6 @@
     "React/test.md",
     "React/react-router-dom.md",
     "React/React State.md",
-    "React/Named export vs Default exports.md",
-    "React/Lists and Keys.md",
-    "React/hosting api for given JSON files.md"
+    "React/Named export vs Default exports.md"
   ]
 }
